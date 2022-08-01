@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "todoList",
+  "version": "0.1",
+
+  "description": "adds todo list as a dropdown",
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["todoExt.js"]
+    }
+  ]
+
+}
