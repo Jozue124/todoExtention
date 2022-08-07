@@ -1,0 +1,24 @@
+{
+
+    "manifest_version": 2,
+    "name": "todoList",
+    "version": "1.0",
+
+    "description": "adds todo list as a dropdown",
+
+    "background": {
+        "scripts":["popup.js"]
+    },
+
+    "permisions":[
+        "storage"
+    ],
+
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_title":"todoList",
+        "default_popup":"view.html"
+
+    }
+
+}
